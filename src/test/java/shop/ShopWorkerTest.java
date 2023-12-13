@@ -183,7 +183,7 @@ public class ShopWorkerTest {
 
         int totalPrice = shopWorker.getTotalProductPrice(products);
 
-        assertEquals(0, totalPrice);
+        assertEquals(5, totalPrice);
     }
 
 }
